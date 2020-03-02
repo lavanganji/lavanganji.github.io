@@ -4,6 +4,8 @@ background: linear-gradient(0deg, rgba(255,241,235,1) 0%, rgba(243,243,255,1) 16
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: lightblue;
+
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

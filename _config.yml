@@ -1,2 +1,3 @@
 name: Lavan Ganji, Software Engineer
 markdown: kramdown
+permalink: /posts/:year/:month/:day/:title

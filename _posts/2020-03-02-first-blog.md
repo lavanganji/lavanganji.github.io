@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "first blog"
-blogno: 1
 date: 2020-03-02
+blogno: 1
 categories: CATEGORY-1 CATEGORY-2
 ---
 

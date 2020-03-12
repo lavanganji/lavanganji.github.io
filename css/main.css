@@ -43,3 +43,34 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/**** Typing Text ****/
+
+.intro{
+    display: flex;
+}
+.typing{
+    margin-left: 10px;
+    position: relative;
+    
+}
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    right: -5px;
+    border-right: 2px solid #42455b;
+    animation: blink 0.5s infinite ease;
+    
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/**** Typing Text ****/

@@ -4,15 +4,66 @@ body {
     background: rgb(255,241,235);
     background: linear-gradient(0deg, rgba(255,241,235,1) 0%, rgba(243,243,255,1) 16%, rgba(172,224,249,1) 100%);
 }
+
+/******* Nav Bar - START *******/
+
+/***
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+topnav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+***/
+
+/******* Nav Bar - END *******/
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 1px;
     list-style: none;
     font-weight: bold;
+    
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+}
+
+nav div ul li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+}
+
+.nav-right {
+  float: right;
 }
 a {
     text-decoration: none;
@@ -46,8 +97,8 @@ ul.posts li {
 
 .pic {
   vertical-align: middle;
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   border-radius: 50%;
 }
 
